@@ -6,12 +6,13 @@ import fetcher from 'lib/fetcher';
 import { Views } from 'lib/types';
 
 export default function BlogPostCard({ title, slug, gradient }) {
-  const { data } = useSWR<Views>(`/api/views/${slug}`, fetcher);
-  const views = data?.total;
+  // const { data } = useSWR<Views>(`/api/views/${slug}`, fetcher);
+  // const views = data?.total;
 
   return (
-    <Link
-      href={`/blog/${slug}`}
+    <a
+      target={'blank'}
+      href={`https://www.github.com/mikhael-dantas/${slug}`}
       className={cn(
         'transform hover:scale-[1.01] transition-all',
         'rounded-xl w-full md:w-1/3 bg-gradient-to-r p-1',
@@ -46,10 +47,9 @@ export default function BlogPostCard({ title, slug, gradient }) {
             />
           </svg>
           <span className="ml-2 align-baseline capsize">
-            {views ? new Number(views).toLocaleString() : '–––'}
           </span>
         </div>
       </div>
-    </Link>
+    </a>
   );
 }
