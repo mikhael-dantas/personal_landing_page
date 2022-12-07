@@ -18,7 +18,7 @@ export default function Home() {
                 Mikhael Dantas
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                6+ years proggraming and improving
+                5+ years proggraming and improving
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
                 Every challenge is an opportunity to learn and improve. I'm
