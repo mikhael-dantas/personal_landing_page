@@ -9,8 +9,7 @@ import VideoCard from '../components/VideoCard';
 
 export default function Home() {
   return (
-    <Suspense fallback={null}>
-      <Container>
+      <>
         <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
@@ -195,7 +194,7 @@ export default function Home() {
             index="02"
             href="https://lp.rocketseat.com.br/ignite"
             length=">>"
-            title="Completed Node JS formation at Rocketseat in Ignite program"
+            title="Completed Back-end Node JS formation at Rocketseat in Ignite program"
           />
           <VideoCard
             index="03"
@@ -206,7 +205,6 @@ export default function Home() {
           <span className="h-16" />
           <Subscribe />
         </div>
-      </Container>
-    </Suspense>
+      </>
   );
 }
