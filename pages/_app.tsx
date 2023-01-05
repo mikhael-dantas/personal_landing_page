@@ -6,6 +6,7 @@ import { Inter } from '@next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { Suspense } from 'react';
 import Container from 'components/Container';
+import Subscribe from 'components/Subscribe';
 
 const interVariable = Inter();
 
@@ -20,6 +21,7 @@ export default function App({
           <Suspense>
           <Container>
             <Component {...pageProps} />
+            <Subscribe />
           </Container>
           </Suspense>
           <Analytics />

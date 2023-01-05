@@ -39,6 +39,9 @@ export default function Subscribe() {
   };
 
   return (
+    <>
+    {/* blank space before real content */}
+    <div className="h-24"></div>
     <div className="border border-blue-200 rounded p-6 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <p className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
         Quickly contact me
@@ -67,5 +70,8 @@ export default function Subscribe() {
         </a>
       </div>
     </div>
+    {/* one more black space */}
+    <div className="h-14"></div>
+    </>
   );
 }
