@@ -1,7 +1,7 @@
 import 'styles/global.css';
 
 import { ThemeProvider } from 'next-themes';
-import { SessionProvider } from 'next-auth/react';
+// import { SessionProvider } from 'next-auth/react';
 import { Inter } from '@next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { Suspense } from 'react';
@@ -15,7 +15,7 @@ export default function App({
   pageProps: { session, ...pageProps }
 }) {
   return (
-    <SessionProvider session={session}>
+    // <SessionProvider session={session}>
       <ThemeProvider attribute="class">
         <main className={interVariable.className}>
           <Suspense>
@@ -27,6 +27,6 @@ export default function App({
           <Analytics />
         </main>
       </ThemeProvider>
-    </SessionProvider>
+    // </SessionProvider>
   );
 }
