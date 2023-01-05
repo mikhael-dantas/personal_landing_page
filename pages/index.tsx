@@ -203,7 +203,6 @@ export default function Home() {
             title="Certified skills at HackerRank"
           />
           <span className="h-16" />
-          <Subscribe />
         </div>
       </>
   );
