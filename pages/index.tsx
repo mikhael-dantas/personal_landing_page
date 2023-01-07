@@ -1,10 +1,7 @@
-import { Suspense } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Container from '../components/Container';
 import BlogPostCard from '../components/BlogPostCard';
-import Subscribe from '../components/Subscribe';
 import VideoCard from '../components/VideoCard';
 
 export default function Home() {
