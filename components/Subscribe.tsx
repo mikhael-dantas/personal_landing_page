@@ -54,7 +54,8 @@ export default function Subscribe() {
         <h2 className="
         text-gray-900
         dark:text-gray-100
-        font-semibold">
+        font-semibold
+        mt-3">
           Whatsapp me: +55 11 95994-5482
         </h2>
         <a
@@ -68,7 +69,9 @@ export default function Subscribe() {
         <h2 className="
         text-gray-900
         dark:text-gray-100
-        font-semibold">
+        font-semibold
+        mt-3"
+        >
           Email me: mikhael-dcs@outlook.com
         </h2>
         <a 
@@ -78,6 +81,18 @@ export default function Subscribe() {
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16"> <path d="M0 5.5A2.5 2.5 0 0 1 2.5 3h11A2.5 2.5 0 0 1 16 5.5v5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 0 10.5v-5zM2.5 4a1.5 1.5 0 0 0-1 2.664l6.5 4.33 6.5-4.33A1.5 1.5 0 0 0 13.5 4h-11z"/> <path d="M2.5 5.25a.25.25 0 0 1 .41-.192L8 9.303l5.09-3.55a.25.25 0 0 1 .41.192v5.5a.25.25 0 0 1-.25.25h-11a.25.25 0 0 1-.25-.25v-5.5z"/> </svg>
         </a>
+        <br/>
+        <h2 className="linkedin text-gray-900 dark:text-gray-100 font-semibold mt-3">
+          Linkedin: mikhael-dantas 
+        </h2>
+        <a
+          href="https://www.linkedin.com/in/mikhael-dantas/"
+          target="blank"
+          className="text-blue-600 dark:text-blue-400 hover:underline ml-2"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16"> <path d="M0 4.5C0 3.11929 1.11929 2 2.5 2h11C14.8807 2 16 3.11929 16 4.5v7c0 1.38071-1.11929 2.5-2.5 2.5h-11A2.5 2.5 0 0 1 0 11.5v-7zM2.5 3a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-11zM4.5 4.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm-1 5.5h2v-4h-2v4zm3 0h2v-2.5c0-.2761.2239-.5.5-.5s.5.2239.5.5V10h2v-2.5c0-.8284-.6716-1.5-1.5-1.5s-1.5.6716-1.5 1.5V10z"/> </svg>
+        </a>
+        <br/>
       </div>
     </div>
     {/* one more black space */}
